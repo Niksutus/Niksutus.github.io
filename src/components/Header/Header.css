@@ -1,8 +1,17 @@
-header {
+#header {
     height: 15vh;
-    background: rgb(36, 36, 147)
+    background: rgb(36, 36, 147);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 2.5rem;
+    padding-right: 10%;
 }
 
 h1 {
     color: white;
+}
+
+#logo_color {
+    color: orange;
 }
