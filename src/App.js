@@ -15,13 +15,17 @@ class App extends Component {
 
   }
 
+  closeHandler = () => {
+    this.setState({showMemoForm:false})
+  }
+
   render() {
     return (
       <div>
         <Header click={this.clickHandler}/>
         <Main />
         <Footer />
-        {this.state.showMemoForm && <MemoForm />}
+        {this.state.showMemoForm && <MemoForm close={this.closeHandler}/>}
       </div>
     );
   }

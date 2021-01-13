@@ -1,0 +1,24 @@
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+
+form {
+    background: white;
+    padding: 1.5rem;
+}
+
+#note {
+    margin-bottom: 2rem;
+}
+
+button {
+    margin-right: 2rem;
+}
