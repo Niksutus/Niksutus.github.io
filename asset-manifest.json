@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Niksutus.github.io/static/css/main.8fcc1ef4.chunk.css",
+    "main.js": "/Niksutus.github.io/static/js/main.ba57ea15.chunk.js",
+    "main.js.map": "/Niksutus.github.io/static/js/main.ba57ea15.chunk.js.map",
+    "runtime-main.js": "/Niksutus.github.io/static/js/runtime-main.bf47b0c8.js",
+    "runtime-main.js.map": "/Niksutus.github.io/static/js/runtime-main.bf47b0c8.js.map",
+    "static/css/2.ae9f1eb3.chunk.css": "/Niksutus.github.io/static/css/2.ae9f1eb3.chunk.css",
+    "static/js/2.9850a889.chunk.js": "/Niksutus.github.io/static/js/2.9850a889.chunk.js",
+    "static/js/2.9850a889.chunk.js.map": "/Niksutus.github.io/static/js/2.9850a889.chunk.js.map",
+    "index.html": "/Niksutus.github.io/index.html",
+    "static/css/2.ae9f1eb3.chunk.css.map": "/Niksutus.github.io/static/css/2.ae9f1eb3.chunk.css.map",
+    "static/css/main.8fcc1ef4.chunk.css.map": "/Niksutus.github.io/static/css/main.8fcc1ef4.chunk.css.map",
+    "static/js/2.9850a889.chunk.js.LICENSE.txt": "/Niksutus.github.io/static/js/2.9850a889.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bf47b0c8.js",
+    "static/css/2.ae9f1eb3.chunk.css",
+    "static/js/2.9850a889.chunk.js",
+    "static/css/main.8fcc1ef4.chunk.css",
+    "static/js/main.ba57ea15.chunk.js"
+  ]
+}
