@@ -23,7 +23,7 @@ import axios from "axios";
 
 const MemoForm = (props) => {
     const [NewMemo, setNewMemo] = useState({
-        textarea: "",
+        note: "",
     })
 
     const changeValueHandler = (e) => {
@@ -45,7 +45,7 @@ const MemoForm = (props) => {
         <div className="overlay">
             <Form onSubmit={addMemoHandler} >
                 <Form.Group controlId="exampleForm.ControlTextarea1">
-                    <Form.Label>Please enter the text for your memo note here:</Form.Label>
+                    <Form.Label label="note" name="note" id="note">Please enter the text for your memo note here:</Form.Label>
                     <Form.Control as="textarea" id="note" onChange={changeValueHandler} rows={3} />
                     <Button id="button" variant="info" type="submit">Add a Note</Button>
                     <Button id="button" variant="info" onClick={props.close}>Close</Button>

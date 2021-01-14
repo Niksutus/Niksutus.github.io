@@ -19,7 +19,7 @@ const Main = () => {
 
     return (
         <Memo 
-        text={p.memo}
+        text={p.note}
         />
     );
 });
